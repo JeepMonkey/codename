@@ -15,3 +15,19 @@
 //= require twitter/bootstrap
 //= require turbolinks
 //= require_tree .
+var type = "OPERATION";
+
+function switchType()
+{
+	if (type == "PROJECT")
+	{
+		type = "OPERATION";
+		$('#switchType').text("It's a project.");
+	}
+	else
+	{
+		type = "PROJECT";
+		$('#switchType').text("It's an operation.");
+	}
+	$('#prefix').text(type);
+}

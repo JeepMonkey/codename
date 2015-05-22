@@ -1,13 +1,15 @@
+
+
 <div class="container">
 
     <!-- GIANT JUMBOTRON TEXT -->
     <div class="jumbotron text-center">
-        <h1><%= @xadj.adjective %>  <%= @xnoun.noun %> </h1>
+        <h2 id="prefix">OPERATION</h2>
+        <h2> <%= @xadj.adjective.upcase %> <%= @xnoun.noun.upcase %> </h2>
         <BR>
        
-        <a href="/" id="go-button" class="btn btn-info">Generate</a>
- 
+        <a href="/" id="generate-button" class="btn btn-info">Generate</a>
+		<a class="btn btn-info" href="#" role="button" id="switchType" onclick='switchType()' >It's a project.</a> 
+    
     </div>
-
-
 </div>

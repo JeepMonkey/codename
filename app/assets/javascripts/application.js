@@ -30,5 +30,6 @@ function switchType()
 		type = "PROJECT";
 		$('#switchType').text("It's an operation.");
 	}
+
 	$('#prefix').text(type);
 }

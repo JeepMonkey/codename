@@ -2,7 +2,7 @@
 
 A quickly smashed together "Codename Generator" built on Rails.
 
-http://codename.criticafocus.com.au
+http://codename.criticalfocus.com.au
 
 TODO...
 - Add some validation
